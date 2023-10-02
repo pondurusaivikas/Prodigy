@@ -1,0 +1,16 @@
+/* CSS for styling the page */
+body {
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+.container {
+    margin-top: 100px;
+}
+h1 {
+    font-size: 36px;
+}
+#weather-info {
+    font-size: 24px;
+}

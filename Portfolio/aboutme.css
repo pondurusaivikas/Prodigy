@@ -1,0 +1,67 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: bisque;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #3a81ad;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testomonial {
+    padding: 30px 100px;
+}
+
+article{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('aboutmebg.jpg');
+    background-image: url('aboutme.jpg');
+    border: 2px solid #3a81ad;
+    border-radius: 10px;
+    border-width: 10px;
+
+}
+article h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+article h1:after{
+    content: '';
+    height: 5px;
+    width: 225px;
+    background-color: #b33030;
+    display: block;
+    margin: auto;
+}
+
+article img {
+    height: 360px;
+    width: 310px;
+    border: 2px solid #c9c23f;
+    border-width: 5px;
+   margin-top: 60px;
+}
+
+blockquote{
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+article h5{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+}
